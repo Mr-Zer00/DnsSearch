@@ -1,0 +1,15 @@
+Para compilar o código dnssearch.c e o main.c no Linux, seguindo os seguintes passos:
+
+Abra o terminal e navegue até o diretório onde os arquivos estão salvos usando o comando "cd".
+
+Compile o arquivo dnssearch.c usando o comando "gcc -c dnssearch.c -o dnssearch.o". Esse comando criará um arquivo objeto dnssearch.o que será usado na compilação do main.c.
+
+Compile o arquivo main.c usando o comando "gcc main.c dnssearch.o -o dnssearch". Esse comando criará um arquivo executável chamado dnssearch.
+
+Agora você pode executar o programa usando o comando "./dnssearch". Certifique-se de que o arquivo dnssrc.txt está no mesmo diretório do executável.
+
+Se você preferir compilar tudo em um único comando, você pode usar o seguinte comando:
+
+"gcc dnssearch.c main.c -o dnssearch"
+
+Isso irá compilar ambos os arquivos e criar um executável chamado dnssearch. Depois, basta executar o programa com "./dnssearch".
